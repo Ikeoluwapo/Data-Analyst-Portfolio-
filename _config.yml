@@ -1,0 +1,39 @@
+---
+title: Emmanuella Omolade
+logo: Images/FaceApp_1671026377569.jpg
+show_downloads: false
+theme: jekyll-theme-minimal
+primaryColor="#289c8c"
+backgroundColor="#195035"
+secondaryBackgroundColor="#471c4e"
+textColor="#c9bbc8"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .img-circle {
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .img-circle img {
+      width: 100%;
+      height: auto;
+      border: 3px solid #fff; /* Change the color as needed */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a box shadow */
+    }
+  </style>
+</head>
+<body>
+
+<img class="img-circle" src="{{ site.logo }}" alt="{{ site.title }}">
+
+<!-- Add your description text below the image -->
+{{ site.description | markdownify }}
+
+</body>
+</html>
